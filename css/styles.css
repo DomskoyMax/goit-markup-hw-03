@@ -1,3 +1,7 @@
+:root{
+--header-color: #212121;
+--text-color: #757575;
+}
 body{
 font-family: 'Roboto', sans-serif ;
 }
@@ -171,7 +175,7 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 .main-list:not(:last-child) {
     margin-right: 30px; 
@@ -182,7 +186,7 @@ button {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--header-color);
     margin-bottom: 10px;
     padding-left: 215px;
 }
@@ -192,7 +196,7 @@ button {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:  var(--header-color);
     margin-bottom: 50px;
     margin-top: 94px;
     margin: 0;
@@ -212,7 +216,7 @@ button {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:  var(--header-color);
 }
 .team-title {
     font-weight: 500;
@@ -220,14 +224,14 @@ button {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:  var(--header-color);
 }
 .team-text {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 .team-list {
     display: flex;
@@ -291,14 +295,14 @@ button {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color:  var(--header-color);
 
     }
 .portfolio-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
     }
 .portfolio-btm:hover{
     color: #FFFFFF;
