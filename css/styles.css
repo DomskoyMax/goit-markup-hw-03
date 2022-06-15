@@ -1,5 +1,5 @@
 body{
-font-family: 'Roboto' sans-serif ;
+font-family: 'Roboto', sans-serif ;
 }
 p,
 h1,
@@ -45,7 +45,6 @@ button {
 .header-logo {
     margin-right: 93px;
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -94,7 +93,6 @@ button {
 .header-item {
     padding-top: 24px;
     padding-bottom: 24px;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -102,7 +100,6 @@ button {
     color: #212121;
 }
 .header-link {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -117,7 +114,6 @@ button {
     color: #2196F3;
 }
 .header-mail,.header-tel {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -161,33 +157,36 @@ button {
     background-color:#2F303A ;
 }
                                                                 /* Main */
+
+.main-container {
+    padding-top: 94px;
+}
+.master-list {
+    display: flex;
+
+}
+
+.main-text {
+    padding-left: 215px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.main-list:not(:last-child) {
+    margin-right: 30px; 
+}
 .heading-text {
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
-}
-.main-container {
-    padding-top: 94px;
-}
-.master-list {
-    display: flex;
-}
-.main-text {
-    padding-left: 215px;
-}
-.main-list:not(:last-child) {
-    margin-right: 30px; 
-}
-.heading-text {
     margin-bottom: 10px;
     padding-left: 215px;
 }
 .about-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -208,7 +207,6 @@ button {
     
 }
 .team-title-heading {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -217,7 +215,6 @@ button {
     color: #212121;
 }
 .team-title {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -226,8 +223,6 @@ button {
     color: #212121;
 }
 .team-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -245,7 +240,6 @@ button {
 .footer-logo {
     margin-right: 93px;
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -260,7 +254,6 @@ button {
 }
 .footer-adress {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -268,7 +261,6 @@ button {
 }
 .footer-mail {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -277,7 +269,6 @@ button {
 }
 .footer-tel {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -286,7 +277,6 @@ button {
                                                            /* PORTFOLIO */
 .portfolio-btm {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -297,7 +287,6 @@ button {
     border-radius: 4px;
     }
 .portfolio-title {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -306,8 +295,6 @@ button {
 
     }
 .portfolio-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
