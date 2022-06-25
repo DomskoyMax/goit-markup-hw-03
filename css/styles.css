@@ -81,6 +81,7 @@ address {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid #ECECEC;
 }
 .header-container{
     display: flex;
@@ -253,7 +254,7 @@ margin-right: 50px;
 .team-foto:not(:last-child) {
     margin-right: 30px; 
 }
-.team-title-paragrag {
+.team-title-paragraph {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -315,22 +316,31 @@ margin-right: 50px;
     background:#F5F4FA;
     border-radius: 4px;
     padding:6px 22px 6px 22px;
-    margin-right: 8px;
     border: none;
     display: block;
     }
-
-.main-btm {
-    padding-top: 94px;
-    padding-bottom: 34px;
-    
-
+.main-btm:not(:last-child) {
+margin-right: 8px;
+}    
+.main-content{
+    padding-bottom: 94px;
+    padding-top: 94px;  
 }
+
 .list-btm {
     display: flex;
     justify-content: center;
+    margin-bottom: 56px;
 }  
+.portfolio-title-paragraph{
+    padding-top: 20px;
+    padding-bottom: 54px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE; 
 
+}
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
@@ -339,15 +349,14 @@ margin-right: 50px;
     color:  var(--header-color);
     margin-top: 20px;
     margin-bottom: 4px;
-    padding-left: 24px;
+   
     }
 .portfolio-text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    padding-bottom: 20px;
-    padding-left: 24px;
+    
     }
 .portfolio-btm:hover{
     color: #FFFFFF;
